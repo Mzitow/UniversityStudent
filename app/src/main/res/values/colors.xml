@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E9CB34</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="darkBackground">#121212</color>
+    <color name="gold">#E9CB34</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="faded">#900E0C0C</color>
+    <color name="bg_pattren">#F0F2F5</color>
+    <color name="creamy">#F8EFCE</color>
+    <color name="red">#C0190D</color>
+</resources>

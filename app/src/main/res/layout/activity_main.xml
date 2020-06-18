@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:padding="8dp"
+    android:elevation="12dp"
+    android:layout_margin="12dp"
+    android:background="@drawable/round_white_rectangle"
+    android:layout_height="wrap_content">
+    <ImageView
+
+        android:layout_gravity="center_vertical"
+        android:layout_width="50dp"
+        android:layout_marginStart="4dp"
+        android:background="@drawable/courses"
+        android:layout_height="50dp"
+        android:layout_marginLeft="4dp">
+    </ImageView>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatCheckedTextView
+        android:id="@+id/appCompatCheckedTextView"
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginStart="10dp"
+        android:text="LECTURES"
+        android:textColor="@color/darkBackground"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp" />
+
+        <androidx.appcompat.widget.AppCompatCheckedTextView
+            android:id="@+id/appCompatCheckedTextView2"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="10dp"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:fontFamily="sans-serif-black"
+            android:text="Computer Science: Batch 18"
+            android:textColor="@color/darkBackground"
+            android:textSize="12dp"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
+
+    <ImageView
+
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="24dp"
+        android:background="@drawable/number_8"
+        android:layout_height="24dp"/>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_weight="60"
+            android:layout_width="wrap_content"
+            android:textSize="16dp"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/black"
+            android:text=" 1. Computational Complexity"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp" />
+
+    <LinearLayout
+        android:layout_weight="40"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="12dp"
+            android:layout_width="wrap_content"
+            android:text="Credit Hours (26)"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+
+    </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_margin="24dp"
+            android:text="GO TO COURSE"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_weight="60"
+                android:layout_width="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginStart="20dp"
+                android:textColor="@color/black"
+                android:text=" 2. Data Structures using C++"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp" />
+
+            <LinearLayout
+                android:layout_weight="40"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="12dp"
+                    android:layout_width="wrap_content"
+                    android:text="Credit Hours (36)"
+                    android:layout_height="wrap_content">
+                </TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_margin="24dp"
+            android:text="GO TO COURSE"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_weight="60"
+                    android:layout_width="wrap_content"
+                    android:textSize="16dp"
+                    android:layout_marginStart="20dp"
+                    android:textColor="@color/black"
+                    android:text=" 3. Compiler Construction"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp" />
+
+                <LinearLayout
+                    android:layout_weight="40"
+                    android:orientation="vertical"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="12dp"
+                        android:layout_width="wrap_content"
+                        android:text="Credit Hours (20)"
+                        android:layout_height="wrap_content">
+                    </TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_margin="24dp"
+                android:text="GO TO COURSE"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_weight="60"
+                android:layout_width="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginStart="20dp"
+                android:textColor="@color/black"
+                android:text="4. Cryptoanalysis"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp" />
+
+            <LinearLayout
+                android:layout_weight="40"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="12dp"
+                    android:layout_width="wrap_content"
+                    android:text="Credit Hours (20)"
+                    android:layout_height="wrap_content">
+                </TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_margin="24dp"
+            android:text="AGO TO COURSE"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_weight="60"
+                    android:layout_width="wrap_content"
+                    android:textSize="16dp"
+                    android:layout_marginStart="20dp"
+                    android:textColor="@color/black"
+                    android:text=" 5. CS Busines Models"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp" />
+
+                <LinearLayout
+                    android:layout_weight="40"
+                    android:orientation="vertical"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="12dp"
+                        android:layout_width="wrap_content"
+                        android:text="Credit Hours (16)"
+                        android:layout_height="wrap_content">
+                    </TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_margin="24dp"
+                android:text="ABOUT THIS COURSE"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+
+
+</LinearLayout>

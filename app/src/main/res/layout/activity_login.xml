@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".LoginActivity">
+
+<LinearLayout
+    android:id="@+id/linear2"
+    android:orientation="vertical"
+    android:background="@drawable/rectangle_login_cover"
+    android:layout_width="match_parent"
+    app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+    app:layout_constraintStart_toStartOf="@+id/linearLayout"
+    app:layout_constraintTop_toTopOf="parent"
+    android:layout_marginStart="24dp"
+    android:layout_marginEnd="24dp"
+    android:gravity="center"
+    android:layout_marginTop="170dp"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatCheckedTextView
+        android:id="@+id/appCompatCheckedTextView"
+        android:layout_width="325dp"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-black"
+        android:text="E-LEARNING: STUDENT COMPANION"
+        android:textColor="@color/darkBackground"
+        android:textSize="18dp">
+
+    </androidx.appcompat.widget.AppCompatCheckedTextView>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:elevation="24dp"
+        android:orientation="vertical"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linear2">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/username"
+            style="@style/WeDoTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:hint="Username"
+            android:textSize="16dp"
+            app:boxStrokeColor="@color/darkBackground"
+            app:counterTextColor="@color/darkBackground"
+            app:helperText="Please Enter your Admission Number as Provided by the University"
+            app:helperTextTextColor="@color/faded"
+            app:hintTextColor="@color/darkBackground"
+            app:startIconDrawable="@drawable/username"
+            app:hintAnimationEnabled="true"
+            android:layout_marginBottom="10dp"
+            app:startIconTintMode="src_atop">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/passwaord"
+            style="@style/WeDoTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="5dp"
+            android:hint="Password"
+            android:textSize="16dp"
+            app:boxStrokeColor="@color/darkBackground"
+            app:counterTextColor="@color/darkBackground"
+            app:helperText="Your account will be Suspended after 3 succesive wrong trials"
+            app:helperTextTextColor="@color/faded"
+            app:hintTextColor="@color/darkBackground"
+            app:startIconDrawable="@drawable/password"
+            app:startIconTintMode="src_atop">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberPassword" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/gold"
+            android:text="LOGIN"
+            android:textColor="@color/white"
+            android:textSize="18dp">
+
+        </com.google.android.material.button.MaterialButton>
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
